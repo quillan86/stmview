@@ -1,0 +1,5 @@
+
+[X,Y] = meshgrid(-10:.05:10, -10:.05ax:10);                                
+Z = 1000*X.^2 + 1000*Y.^2;                                        
+figure; surfl(Z);figure(gcf)
+shading flat;
