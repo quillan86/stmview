@@ -1,3 +1,5 @@
 function dir = color_directory
-    dir = '/Users/MHamidian/Documents/Research/STM Analysis Code/STM View/Color Maps/';
+strng = which('get_color_map');
+dir = strng(1:end-15);
+
 end
